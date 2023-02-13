@@ -1,0 +1,120 @@
+* {
+    font-family:Roboto, Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display:inline-block;
+    margin:1rem;
+    border-radius:8px;
+    border:1px solid #ccc;
+    box-shadow:0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-left:12px solid #9e2935;
+}
+
+#title {
+    margin:2rem;
+    font-size:2.25rem;
+    font-weight:500;
+    letter-spacing:.0125em;
+    line-height:2rem;
+    color:#333;
+    text-align:center;
+}
+
+#readme {
+    margin:2rem;
+    width:300px;
+    letter-spacing:.0125em;
+    text-align:justify;
+    color:#444;
+}
+
+.label {
+    display:block;
+    margin:1rem 0rem 0rem 2rem;
+    font-size:0.75rem;
+    color:#666;
+}
+
+#offset {
+    width:300px;
+    margin:0rem 2rem;
+    font-size:2rem;
+    border-radius:4px;
+    border:1px solid #666;
+    text-align:center;
+    padding:0;
+}
+
+#dropzone {
+    width:300px;
+    height:120px;
+    margin:0rem 0rem 1rem 2rem;
+    border:1px solid #666;
+    border-radius:4px;
+    text-align:center;
+}
+
+#dropzone span {
+    display:block;
+    margin:0.25rem;
+    color:#666;
+}
+
+#dropzone #paperclip {
+    fill:#666;
+    height:60px;
+    margin:1rem;
+}
+
+#adif {
+    display:none;
+}
+
+#timestamps {
+    border:1px solid #666;
+    border-radius:4px;
+    width:300px;
+    margin:0rem 0rem 1rem 2rem;
+    color:#666;
+}
+
+#timestamps span {
+    font-size:0.75rem;
+    display:block;
+    margin:0.25rem;
+}
+
+#copy {
+    width:300px;
+    height:42px;
+    margin:0rem 0rem 1rem 2rem;
+    border:1px solid #666;
+    border-radius:4px;
+    font-weight:bold;
+    transition:background-color 0.5s ease;
+}
+
+#copy:hover {
+    background-color:#2b5382;
+    color:white;
+}
+
+#copy.done {
+    background-color:#2b825a;
+    color:white;
+}
+
+#seal {
+    display:block;
+    margin:2rem auto;
+}
+
+#madeby {
+    margin:3rem 2rem 0.25rem 2rem;
+    width:300px;
+    letter-spacing:.0125em;
+    text-align:right;
+    font-size:0.75rem;
+    color:#444;
+}
