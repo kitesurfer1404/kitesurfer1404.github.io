@@ -53,6 +53,13 @@
     border:1px solid #666;
     border-radius:4px;
     text-align:center;
+    transition:background-color 0.5s ease;
+}
+
+#dropzone:hover,
+#dropzone.dragover {
+    background-color:#2b5382;
+    color:white;
 }
 
 #dropzone span {
@@ -61,10 +68,24 @@
     color:#666;
 }
 
+#dropzone:hover span,
+#dropzone.dragover span {
+    color:white;
+}
+
 #dropzone #paperclip {
     fill:#666;
     height:60px;
     margin:1rem;
+}
+
+#dropzone:hover #paperclip,
+#dropzone.dragover #paperclip {
+    fill:white;
+}
+
+#file {
+    display:none;
 }
 
 #adif {

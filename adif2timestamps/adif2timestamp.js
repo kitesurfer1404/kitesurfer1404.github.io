@@ -150,15 +150,26 @@ function dropHandler(ev) {
 }
 
 function dragOverHandler(ev) {
-    console.log('File(s) in drop zone');
+    //console.log('File(s) in drop zone');
     ev.preventDefault();
     ev.stopPropagation();
+    document.getElementById('dropzone').classList.add("dragover");
+}
+
+function dragLeaveHandler(ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    document.getElementById('dropzone').classList.remove("dragover");
 }
 
 function copyTimestampsToClipboard() {
     const copyText = document.getElementById('timestamps').innerText;
     navigator.clipboard.writeText(copyText);
     document.getElementById('copy').classList.add("done");  
+}
+
+function clickSelectFile(ev) {
+    document.getElementById('file').click();
 }
 
 function update() {
